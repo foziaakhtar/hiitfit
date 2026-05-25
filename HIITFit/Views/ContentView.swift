@@ -6,7 +6,7 @@ struct ContentView: View {
      TabView{
          WelcomeView()      // was Text("Wlcome!")
          ForEach(0 ..< 4) { index in
-             ExcerciseView(index: index)  // Text("Excercise 1")
+             ExerciseView(index: index)  // Text("Excercise 1")
          }
       }
      .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
